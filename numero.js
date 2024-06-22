@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 })
 let maximotentativas = 10
 let tentativas = 0
-let palpite = Math.floor(Math.random() * 100) + 1
+let palpite = Math.floor(Math.random() * (200 - 100 + 1)) + 100;
 
 console.log('Bem vindo ao jogo')
 palpitecontinuar()
